@@ -1,0 +1,15 @@
+node {
+    // some block
+    stage('Clone') {
+    // some block
+        git 'https://github.com/zeedcoprp/jenkins-helloworld.git'
+    }
+    stage('Build') {
+    // some block
+        sh 'javac Main.java'
+    }
+    stage('Run') {
+    // some block
+        sh 'java Main'
+    }
+}
