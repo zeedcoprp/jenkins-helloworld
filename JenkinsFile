@@ -1,5 +1,5 @@
 node {
-    // some block
+    // some block test update scrutation
     stage('Clone') {
     // some block
         git 'https://github.com/zeedcoprp/jenkins-helloworld.git'
